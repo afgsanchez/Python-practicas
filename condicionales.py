@@ -45,7 +45,7 @@ print(entrada, " Es un string")
 print("-------------------------------------")
 '''
 # -------------------------------------------
-# este codigo comprieba la entrada por teclado y si es un numero
+# este codigo comprueba la entrada por teclado y si es un numero
 # lo añade a la lista que en un principio esta vacia.
 l = list () #creo una cadena vacia
 texto = input("Escribe un numero: ")
