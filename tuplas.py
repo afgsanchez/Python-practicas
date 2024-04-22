@@ -24,6 +24,6 @@ t = [(1, 2), (3, 4), (5, 6)]
 
 for g, h in t: # g, h hacen referencia a cada elemento de cada tupla
                # dentro de la lista
-    print(g+h) # imprime las suma de cada tupla de la lista.
+    print(g+h) # imprime las sumas de cada tupla de la lista.
 
 # ---------------------------------------------
