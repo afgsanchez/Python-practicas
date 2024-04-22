@@ -28,3 +28,31 @@ def numeros():  # Definición de la función 'numeros'
     print()  # Imprime una nueva línea para separar los resultados
 
 numeros()  # Llamada a la función 'numeros'
+
+# ------------------------------------------
+# otro ejemplo, esta vez con strings, este imprimirá cada letra
+# de la cadena de texto con un espacio entre cada letra
+# si no ponemos la intruccion end=' ' nos imprimira una letra en cada linea.
+
+for c in 'Me gusta Python!':
+    print(c, end= ' ')
+print()
+
+# ----------------------------------
+# un ejemplo recorriendo un diccionario formado por dos listas.
+
+# Definimos dos listas
+keys = ['nombre', 'apellidos', 'edad', 'Profesion']
+values = ['Guido', 'van Houtten', '16', 'Python developer']
+
+# Creamos el diccionario con las listas
+d = dict(zip(keys, values))
+
+# Iniciamos un bucle for que recorre los elementos de las listas
+for k in d:
+    # creamos un string con un elemento de cada lista
+    info = '{}: {}'.format(k, d[k])
+
+#imprimimos cada string en una linea
+    print(info)
+
