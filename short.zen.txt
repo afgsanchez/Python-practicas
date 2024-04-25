@@ -1,0 +1,4 @@
+Bello es mejor que feo.
+Explicito es mejor que implicíto.
+Simple es mejor que complejo.
+Complejo es mejor que complicado.
